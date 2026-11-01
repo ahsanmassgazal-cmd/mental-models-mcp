@@ -1,0 +1,21 @@
+{
+  "name": "mental-models-mcp",
+  "version": "1.0.0",
+  "description": "MCP server with 7 decision-making mental models (OODA, First Principles, Six Thinking Hats, 80/20, Root Cause, Occam's Razor, 5x5) — think better, decide faster. By SigmaMax AI Solutions.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:http": "node src/http.js",
+    "test": "node test/test.js && node test/http-test.js"
+  },
+  "keywords": ["mcp", "claude", "mental-models", "decision-making", "ooda", "first-principles", "six-thinking-hats", "pareto", "root-cause-analysis", "sigmamax"],
+  "author": "SigmaMax AI Solutions (https://sigmamaxaisolutions.com)",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  },
+  "type": "module",
+  "bin": { "mental-models-mcp": "src/index.js" },
+  "engines": { "node": ">=18" }
+}
