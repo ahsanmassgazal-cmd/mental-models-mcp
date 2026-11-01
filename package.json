@@ -17,5 +17,5 @@
   },
   "type": "module",
   "bin": { "mental-models-mcp": "src/index.js" },
-  "engines": { "node": ">=18" }
+  "engines": { "node": "22.x" }
 }
